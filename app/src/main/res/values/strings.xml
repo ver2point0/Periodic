@@ -1,0 +1,71 @@
+<resources>
+    <!-- Global strings-->
+    <string name="app_name">Periodic</string>
+    <string name="edit_text_hint">Enter your answer</string>
+    <string name="button_text_submit_answers">Submit Answers</string>
+    <string name="quiz_score_toast">"Your score out of 10 questions is: "</string>
+
+    <!-- Question 1 -->
+    <string name="q_1_header">Question 1</string>
+    <string name="q_1_question">What is the chemical symbol for Hydrogen?</string>
+
+    <!-- Question 2 -->
+    <string name="q_2_header">Question 2</string>
+    <string name="q_2_question">This Marvel hero is named after what element?</string>
+    <string name="q_2_radio_button_answer_1">Fe</string>
+    <string name="q_2_radio_button_answer_2">Kr</string>
+    <string name="q_2_radio_button_answer_3">Pd</string>
+    <string name="q_2_radio_button_answer_4">Pu</string>
+
+    <!-- Question 3 -->
+    <string name="q_3_header">Question 3</string>
+    <string name="q_3_question">Which elements below help you spell fear?</string>
+    <string name="q_3_check_box_answer_1">Argon</string>
+    <string name="q_3_check_box_answer_2">Iron</string>
+    <string name="q_3_check_box_answer_3">Arsenic</string>
+    <string name="q_3_check_box_answer_4">Fermium</string>
+
+    <!-- Question 4 -->
+    <string name="q_4_header">Question 4</string>
+    <string name="q_4_question">This tech hub in Washington state is also known as _______ valley?</string>
+
+    <!-- Question 5 -->
+    <string name="q_5_header">Question 5</string>
+    <string name="q_5_question">5 pennies are equal to 1&#8230;</string>
+    <string name="q_5_radio_button_answer_1">Cu</string>
+    <string name="q_5_radio_button_answer_2">Ni</string>
+    <string name="q_5_radio_button_answer_3">Au</string>
+    <string name="q_5_radio_button_answer_4">Ag</string>
+
+    <!-- Question 6 -->
+    <string name="q_6_header">Question 6</string>
+    <string name="q_6_question">In Javascript, this global property value represents Not-A-Number?</string>
+    <string name="q_6_check_box_answer_1">Osmium</string>
+    <string name="q_6_check_box_answer_2">Nitrogen</string>
+    <string name="q_6_check_box_answer_3">Nobelium</string>
+    <string name="q_6_check_box_answer_4">Sodium</string>
+
+    <!-- Question 7 -->
+    <string name="q_7_header">Question 7</string>
+    <string name="q_7_question">Boron, Astatine, Manganese</string>
+
+    <!-- Question 8 -->
+    <string name="q_8_header">Question 8</string>
+    <string name="q_8_question">You can lead a horse to water, but you cannot make it drink.</string>
+    <string name="q_8_radio_button_answer_1">Rhodium</string>
+    <string name="q_8_radio_button_answer_2">Zinc</string>
+    <string name="q_8_radio_button_answer_3">Plumbum</string>
+    <string name="q_8_radio_button_answer_4">Vanadium</string>
+
+    <!-- Question 9 -->
+    <string name="q_9_header">Question 9</string>
+    <string name="q_9_question">Three phases of matter.</string>
+    <string name="q_9_check_box_answer_1">Solid</string>
+    <string name="q_9_check_box_answer_2">Liquid</string>
+    <string name="q_9_check_box_answer_3">Gas</string>
+    <string name="q_9_check_box_answer_4">Metal</string>
+
+    <!-- Question 10 -->
+    <string name="q_10_header">Question 10</string>
+    <string name="q_10_question">It all started when the Fluorine Iodine Rhenium nation attacked.</string>
+</resources>
