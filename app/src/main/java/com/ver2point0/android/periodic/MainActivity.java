@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
     public void scoreQuestions() {
 
         // For Question 1
-        String q1 = editTextQ1.getText().toString();
+        String q1 = editTextQ1.getText().toString().toUpperCase();
         String q1Answer = "H";
         scoreEditTextQuestion(q1, q1Answer);
 
