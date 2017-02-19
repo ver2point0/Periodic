@@ -106,8 +106,6 @@ public class MainActivity extends AppCompatActivity {
     public int scoreEditTextQuestion(String a, String b) {
         if (a.equals(b)) {
             quizScore += 1;
-        } else {
-            quizScore += 0;
         }
         return quizScore;
     }
@@ -116,8 +114,6 @@ public class MainActivity extends AppCompatActivity {
     public int scoreRadioButtonQuestion(RadioButton rB) {
         if (rB.isChecked()) {
             quizScore += 1;
-        } else {
-            quizScore += 0;
         }
         return quizScore;
     }
@@ -132,8 +128,6 @@ public class MainActivity extends AppCompatActivity {
 
                 if ((q3cB1Checked && q3cB2Checked) && !(q3cB3Checked || q3cB4Checked)) {
                     quizScore += 1;
-                } else {
-                    quizScore += 0;
                 }
                 break;
 
@@ -145,8 +139,6 @@ public class MainActivity extends AppCompatActivity {
 
                 if ((q6cB2Checked && q6cB4Checked) && !(q6cB1Checked || q6cB3Checked)) {
                     quizScore += 1;
-                } else {
-                    quizScore += 0;
                 }
                 break;
 
@@ -158,8 +150,6 @@ public class MainActivity extends AppCompatActivity {
 
                 if ((q9cB1Checked && q9cB2Checked && q9cB3Checked) && !q9cB4Checked) {
                     quizScore += 1;
-                } else {
-                    quizScore += 0;
                 }
                 break;
         }
@@ -172,5 +162,4 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(getApplicationContext(), getString(R.string.quiz_score_toast) + quizScore, Toast.LENGTH_SHORT).show();
         quizScore = 0;
     }
-
 }
