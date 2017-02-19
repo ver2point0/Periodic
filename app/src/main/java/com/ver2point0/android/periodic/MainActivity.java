@@ -11,25 +11,25 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     private int quizScore = 0;
-    EditText editTextQ1;
-    RadioButton q2;
-    CheckBox q3cB1;
-    CheckBox q3cB2;
-    CheckBox q3cB3;
-    CheckBox q3cB4;
-    EditText editTextQ4;
-    RadioButton q5;
-    CheckBox q6cB1;
-    CheckBox q6cB2;
-    CheckBox q6cB3;
-    CheckBox q6cB4;
-    EditText editTextQ7;
-    RadioButton q8;
-    CheckBox q9cB1;
-    CheckBox q9cB2;
-    CheckBox q9cB3;
-    CheckBox q9cB4;
-    EditText editTextQ10;
+    private EditText editTextQ1;
+    private RadioButton q2;
+    private CheckBox q3cB1;
+    private CheckBox q3cB2;
+    private CheckBox q3cB3;
+    private CheckBox q3cB4;
+    private EditText editTextQ4;
+    private RadioButton q5;
+    private CheckBox q6cB1;
+    private CheckBox q6cB2;
+    private CheckBox q6cB3;
+    private CheckBox q6cB4;
+    private EditText editTextQ7;
+    private RadioButton q8;
+    private CheckBox q9cB1;
+    private CheckBox q9cB2;
+    private CheckBox q9cB3;
+    private CheckBox q9cB4;
+    private EditText editTextQ10;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
