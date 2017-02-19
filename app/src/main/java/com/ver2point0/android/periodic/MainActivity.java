@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
     // Score EditText view questions
     public int scoreEditTextQuestion(String a, String b) {
         if (a.equals(b)) {
-            quizScore += 1;
+            quizScore++;
         }
         return quizScore;
     }
@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity {
     // Score RadioButton view questions
     public int scoreRadioButtonQuestion(RadioButton rB) {
         if (rB.isChecked()) {
-            quizScore += 1;
+            quizScore++;
         }
         return quizScore;
     }
@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
                 final boolean q3cB4Checked = q3cB4.isChecked();
 
                 if ((q3cB1Checked && q3cB2Checked) && !(q3cB3Checked || q3cB4Checked)) {
-                    quizScore += 1;
+                    quizScore++;
                 }
                 break;
 
@@ -138,7 +138,7 @@ public class MainActivity extends AppCompatActivity {
                 final boolean q6cB4Checked = q6cB4.isChecked();
 
                 if ((q6cB2Checked && q6cB4Checked) && !(q6cB1Checked || q6cB3Checked)) {
-                    quizScore += 1;
+                    quizScore++;
                 }
                 break;
 
@@ -149,7 +149,7 @@ public class MainActivity extends AppCompatActivity {
                 final boolean q9cB4Checked = q9cB4.isChecked();
 
                 if ((q9cB1Checked && q9cB2Checked && q9cB3Checked) && !q9cB4Checked) {
-                    quizScore += 1;
+                    quizScore++;
                 }
                 break;
         }
